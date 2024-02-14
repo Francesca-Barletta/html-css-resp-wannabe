@@ -127,8 +127,38 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media screen and (max-width: 768px) {
-    .container{
-       max-width: 768px
+@media screen and (max-whidt:1140px) {
+    .comtainer{
+        max-width: 100%;
     }
+}
+ @media screen and (max-width: 768px) {
+    .container{
+       min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        max-width: 100%;
+    }
+    .col{
+        min-width: 100%;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+   .site-header{
+    margin-top: 0;
+    padding-top: 3rem;
+   }
+   .steps{
+    margin-top:3rem;
+    margin-bottom: 0;
+   }
+   .why-us{
+    padding: 3rem 0;
+    margin-bottom:0;
+    background-color: rgb(32, 32, 32);
+   }
 }
