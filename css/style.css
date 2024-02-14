@@ -127,15 +127,20 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media screen and (max-whidt:1140px) {
-    .comtainer{
+@media screen and (max-width: 1140px) {
+    .container{
         max-width: 100%;
+    }
+    body{
+        margin: 0 auto;
+        box-sizing: border-box;
     }
 }
  @media screen and (max-width: 768px) {
     .container{
-       min-width: 100%;
+       max-width: 100%;
     }
+    
 }
 
 @media screen and (max-width: 480px) {
